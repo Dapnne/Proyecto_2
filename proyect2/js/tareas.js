@@ -5,6 +5,7 @@ const boton = document.getElementById("boton");
 const contenedorTarea = document.getElementById("contenedordetareas");
 const tareaInput = document.getElementById("agregareventos");
 const tipoSelect = document.getElementById("mySelect"); 
+
 let listaTareas = JSON.parse(localStorage.getItem("tareas")) || [];
 
 function mostrarTareas() { //contenedor que obtiene todo el contenido
