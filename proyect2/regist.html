@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/proyect2/img/regis.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <nav id="navegacion">
+    <button class="btnregis"> LIKE</button>
+    </nav>
+  <h1 class="titulo">Registro</h1>
+
+<div id="register_Container">
+   <form  id="form-registro">
+     <h1><i class="fa-solid fa-user"></i><label> NOMBRE DE USUARIO</label></i></h1>
+     <br />
+     <input class="BTNNOMBRE" placeholder="INGRESE SU NOMBRE" type="text" id="input-user"/>
+     <br />
+     <br />
+     <h1><i class="fa-solid fa-envelope"></i><label> CORREO ELECTRONICO</label></h1>
+     <br />
+     <input class="BTNIMAIL" type="email" placeholder="INGRESE SU IMAIL" id="input-email"/>
+     <br />
+     <br />
+     <h1><i class="fa-solid fa-lock"></i><label> PASWOORD</label></h1>
+     <br />
+     <input class="BTNCONTRASEÑA" type="password" placeholder="INGRESE SU PASWOORD" id="input-contraseña"/>
+     <br />
+     <br />
+     <button class="btnregistro" type="submit">
+       <p class="REGISTRO1">Registrate</p>
+     </button>
+   </form>
+</div>
+
+ <dialog id="modal">
+   <button id="cerra-boton">CERRAR</button>
+   <P>NO SE PUEDE AGREGAR ESPACIOS VACIOS</P>
+ </dialog>
+<script src="/js/registro.js"></script>
+</body>
+</html>
